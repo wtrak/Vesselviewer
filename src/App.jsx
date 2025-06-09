@@ -1,21 +1,23 @@
 import { useState } from 'react'
 import { Rnd } from 'react-rnd'
 
+const base = import.meta.env.BASE_URL
+
 const ships = [
   {
     name: 'MSC Seascape',
     length_m: 339,
-    svg: '/ships/msc-seascape.svg'
+    svg: `${base}ships/msc-seascape.svg`
   },
   {
     name: 'Titanic',
     length_m: 269,
-    svg: '/ships/titanic.svg'
+    svg: `${base}ships/titanic.svg`
   },
   {
     name: 'Boeing 747',
     length_m: 70.6,
-    svg: '/ships/boeing-747.svg'
+    svg: `${base}ships/boeing-747.svg`
   }
 ]
 
