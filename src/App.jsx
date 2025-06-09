@@ -7,7 +7,7 @@ const ships = [
   {
     name: 'MSC Seascape',
     length_m: 339,
-    svg: `${base}ships/msc-seascape-true.svg`
+    svg: `${base}ships/msc-seascape.svg`
   },
   {
     name: 'Titanic',
